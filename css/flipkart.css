@@ -1,6 +1,12 @@
-body {
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
     font-family: Roboto,
         Arial,
         sans-serif;
@@ -79,7 +85,7 @@ body {
 
 /* search css starts here */
 .search input {
-    width: 81%;
+    width: 75%;
     box-sizing: border-box;
     height: 35px;
     border-radius: 2px;
@@ -93,4 +99,100 @@ body {
     font-weight: 500;
 }
 
+.search-icon-block {
+    position: relative;
+}
+
+.fa-search {
+    position: absolute;
+    left: -31px;
+    top: 3px;
+    color: #2874f0;
+    font-size: 17px;
+}
+
 /* search css ends here */
+
+/*------------right menu css starts here ---*/
+.rightHeader nav>ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rightHeader nav>ul>li>a {
+    padding: 0 15px 0 33px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rightHeader nav ul>li:nth-child(1) a.first-child {
+    background: #fff;
+    color: #2874f0;
+    padding: 6px 40px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 0px #11111140;
+}
+
+.rightHeader svg {
+    transform: rotate(270deg);
+    margin: 0px 4px;
+}
+
+/*-----flipkart dropdown menu -----------*/
+.first-child {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    background: #fff;
+    width: 260px;
+    box-shadow: 1px 0px 6px 0px #ccc;
+    margin: 20px 0;
+    left: -66px;
+}
+
+.dropdown .nav-item .nav-link {
+    padding: 10px 20px !important;
+
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 1px solid #eee;
+    display: block;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.customer_links {
+    display: flex;
+}
+
+.customer_links span a.customer {
+    color: #111;
+
+}
+
+.customer_links span a.signup {
+    color: #2874f0;
+
+}
+
+ul>li:hover ul {
+    display: flex;
+
+
+}
+
+
+/*-------right menu css ends here ----*/
