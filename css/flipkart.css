@@ -124,7 +124,7 @@ body {
 }
 
 .rightHeader nav>ul>li>a {
-    padding: 0 15px 0 33px;
+    padding: 26px 15px 18px 33px;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -153,11 +153,9 @@ body {
     display: none;
     flex-direction: column;
     list-style: none;
-    background: #fff;
     width: 260px;
-    box-shadow: 1px 0px 6px 0px #ccc;
-    margin: 20px 0;
-    left: -66px;
+    margin: 7px 0;
+    left: -76px;
 }
 
 .dropdown .nav-item .nav-link {
@@ -168,14 +166,18 @@ body {
 .dropdown a {
     text-decoration: none;
     color: #444;
-    border-bottom: 1px solid #eee;
     display: block;
     width: 100%;
-    padding: 15px 15px;
+    padding: 15px 0;
+    transition: all .5s ease;
 }
 
 .customer_links {
     display: flex;
+}
+
+.customer_links span {
+    flex: 1;
 }
 
 .customer_links span a.customer {
@@ -185,14 +187,50 @@ body {
 
 .customer_links span a.signup {
     color: #2874f0;
+    text-align: right;
 
 }
 
 ul>li:hover ul {
     display: flex;
-
-
 }
 
+.dropdown li {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    border-bottom: 11px solid #fff;
+    position: relative;
+    margin: auto;
+}
+
+.dropdownMenu {
+    display: flex;
+    align-items: center;
+}
+
+.dropdownMenu span {
+    margin: 0px 15px;
+}
+
+.dropdownMenu span i {
+    color: #2874f0;
+}
+
+span.plus_icon img {
+    width: 14px;
+    filter: invert(1);
+}
+
+.customer_links span a {
+    font-size: 14px;
+    font-weight: bold;
+}
 
 /*-------right menu css ends here ----*/
