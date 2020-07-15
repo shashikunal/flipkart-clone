@@ -18,7 +18,7 @@ body {
     background-color: #2874f0;
     width: 100%;
     height: 56px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 #headerBlock article {
@@ -234,3 +234,101 @@ span.plus_icon img {
 }
 
 /*-------right menu css ends here ----*/
+
+/*------main menu block css starts here -----*/
+#mainMenuBlock {
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+#mainMenuBlock article {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+#mainMenuBlock ul {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mainMenuBlock ul li {
+    flex: 1 auto;
+}
+
+#mainMenuBlock ul li a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#mainMenuBlock ul li a:hover {
+    color: #2874f0;
+}
+
+#mainMenuBlock ul li a svg {
+    margin-left: 6px;
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+#mainMenuBlock ul li a svg path {
+    fill: #878787 !important;
+    opacity: 0.5;
+}
+
+
+/*----dropdown mega menu starts here ----*/
+#MegaDropDownMenuBlock {
+    display: flex;
+    background: #fff;
+    height: 75%;
+    width: 1200px;
+    position: absolute;
+    box-shadow: 0px 2px 3px 0px #ccc;
+    margin: 10px 0px;
+
+}
+
+#MegaDropDownMenuBlock div {
+    flex-basis: 25%;
+    padding: 20px;
+}
+
+#MegaDropDownMenuBlock div:nth-child(odd) {
+    background: #fff;
+}
+
+#MegaDropDownMenuBlock div:nth-child(even) {
+    background: #fdfbfb;
+}
+
+.megaMenuDiv ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    line-height: 26px;
+}
+
+.megaMenuDiv ul li a {
+    font-size: 13px !important;
+    color: #212121 !important;
+    font-weight: 400 !important;
+}
+
+._1h5QLb a {
+    font-weight: bold !important;
+}
+
+/*----dropdown mega menu ends here ------*/
+
+/*-----main menu block css ends here -----*/

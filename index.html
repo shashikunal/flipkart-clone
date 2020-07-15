@@ -1,134 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Online Shopping Site for Mobiles, Electronics, Furniture, Grocery,
-      Lifestyle, Books &amp; More. Best Offers!
-    </title>
-    <!---flipkart favicon-->
-    <link
-      rel="shortcut icon"
-      href="./images/20150528-140547-favicon-retina.png"
-      type="image/x-icon"
-    />
-    <!------adding google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!-----custom css flipkart.css-->
-    <link rel="stylesheet" href="./css/flipkart.css" />
 
-    <!------responsive design css (RWD css's)-->
-    <link rel="stylesheet" href="./css/viewport/laptop-desktop.css" />
-    <link rel="stylesheet" href="./css/viewport/mobile.css" />
-    <link rel="stylesheet" href="./css/viewport/tablet.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Online Shopping Site for Mobiles, Electronics, Furniture, Grocery,
+    Lifestyle, Books &amp; More. Best Offers!
+  </title>
+  <!---flipkart favicon-->
+  <link rel="shortcut icon" href="./images/20150528-140547-favicon-retina.png" type="image/x-icon" />
+  <!------adding google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <!-----custom css flipkart.css-->
+  <link rel="stylesheet" href="./css/flipkart.css" />
 
-  <body>
-    <!----flipkart header block starts here-->
-    <section id="headerBlock">
-      <article>
-        <div class="leftHeader">
-          <div class="logo">
-            <a href="/" class="main_logo_block">
-              <img src="./images/flipkart-plus_4ee2f9.png" alt="main-logo" />
-            </a>
-            <a href="/plus" class="plus_logo_block">
-              <span class="explore">Explore</span>
-              <span class="plus">Plus</span>
-              <span class="plus_logo"
-                ><img src="./images/plus_b13a8b.png" alt="plus_logo"
-              /></span>
-            </a>
-          </div>
-          <div class="search">
-            <input
-              type="text"
-              placeholder="search for products,brands and more"
-              class="searchInput"
-            />
-            <span class="search-icon-block"><i class="fas fa-search"></i></span>
-          </div>
+  <!------responsive design css (RWD css's)-->
+  <link rel="stylesheet" href="./css/viewport/laptop-desktop.css" />
+  <link rel="stylesheet" href="./css/viewport/mobile.css" />
+  <link rel="stylesheet" href="./css/viewport/tablet.css" />
+</head>
+
+<body>
+  <!----flipkart header block starts here-->
+  <section id="headerBlock">
+    <article>
+      <div class="leftHeader">
+        <div class="logo">
+          <a href="/" class="main_logo_block">
+            <img src="./images/flipkart-plus_4ee2f9.png" alt="main-logo" />
+          </a>
+          <a href="/plus" class="plus_logo_block">
+            <span class="explore">Explore</span>
+            <span class="plus">Plus</span>
+            <span class="plus_logo"><img src="./images/plus_b13a8b.png" alt="plus_logo" /></span>
+          </a>
         </div>
-        <div class="rightHeader">
-          <nav>
-            <ul class="navbar">
-              <li class="nav-item first-child">
-                <a href="" class="nav-link">Login </a>
+        <div class="search">
+          <input type="text" placeholder="search for products,brands and more" class="searchInput" />
+          <span class="search-icon-block"><i class="fas fa-search"></i></span>
+        </div>
+      </div>
+      <div class="rightHeader">
+        <nav>
+          <ul class="navbar">
+            <li class="nav-item first-child">
+              <a href="" class="nav-link">Login </a>
 
-                <ul class="dropdown">
-                  <div class="triangle"></div>
-                  <li class="dropdownMenu customer_links">
-                    <span><a href="" class="customer"> New customer?</a> </span>
-                    <span><a href="" class="signup">Signup</a></span>
+              <ul class="dropdown">
+                <div class="triangle"></div>
+                <li class="dropdownMenu customer_links">
+                  <span><a href="" class="customer"> New customer?</a> </span>
+                  <span><a href="" class="signup">Signup</a></span>
+                </li>
+                <li class="dropdownMenu">
+                  <span class="profile_icon"><i class="fas fa-user-circle"></i></span>
+                  <a href="" class="drop-links">My Profile</a>
+                </li>
+                <li class="dropdownMenu">
+                  <span class="plus_icon"><img src="./images/plus_b13a8b.png" alt="plus_icon" /></span>
+                  <a href="" class="drop-links">Flipkart Plus Zone</a>
+                </li>
+                <li class="dropdownMenu">
+                  <span class="profile_icon"><i class="fas fa-user-circle"></i></span>
+                  <a href="" class="drop-links">Orders</a>
+                </li>
+                <li class="dropdownMenu">
+                  <span class="profile_icon"><i class="fas fa-user-circle"></i></span>
+                  <a href="" class="drop-links">Wishlists</a>
+                </li>
+                <li class="dropdownMenu">
+                  <span class="profile_icon"><i class="fas fa-user-circle"></i></span>
+                  <a href="" class="drop-links">Rewards</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">More
+
+                <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_34Yjv1">
+                  <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff"
+                    class="_14jSvk"></path>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <span class="cart-icon"><i class="far fa-shopping-cart"></i></span>
+                Cart</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </article>
+  </section>
+  <!----flipkart header block ends here-->
+
+  <!------Main menu Block Starts here-->
+  <section id="mainMenuBlock">
+    <article>
+      <nav id="MainMenu">
+        <ul>
+          <li class="list-item">
+            <a href="" class="nav-links">Electronics
+              <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3ynUUz">
+                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h">
+                </path>
+              </svg>
+            </a>
+            <!----dropdown mega menu starts here-->
+            <section id="MegaDropDownMenuBlock">
+              <div class="megaMenuDiv">
+                <!----mobile ul Starts here-->
+                <ul class="QPOmNK">
+                  <li class="_1KCOnI _2BfSTw _1h5QLb _3ZgIXy"><a title="Mobiles"
+                      href="/mobile-phones-store?otracker=nmenu_sub_Electronics_0_Mobiles"><strong>Mobiles</strong><span
+                        class="nsslWl"></span></a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Mi"
+                      href="/mobiles/mi~brand/pr?sid=tyy,4io&amp;otracker=nmenu_sub_Electronics_0_Mi">Mi</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Realme"
+                      href="/mobiles/pr?sid=tyy%2C4io&amp;p%5B%5D=facets.brand%255B%255D%3DRealme&amp;otracker=nmenu_sub_Electronics_0_Realme">Realme</a>
                   </li>
-                  <li class="dropdownMenu">
-                    <span class="profile_icon"
-                      ><i class="fas fa-user-circle"></i
-                    ></span>
-                    <a href="" class="drop-links">My Profile</a>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Samsung"
+                      href="/samsung-mobile-store?otracker=nmenu_sub_Electronics_0_Samsung">Samsung</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Infinix"
+                      href="/mobiles/pr?sid=tyy%2C4io&amp;otracker=categorytree&amp;p%5B%5D=facets.brand%255B%255D%3DInfinix&amp;otracker=nmenu_sub_Electronics_0_Infinix">Infinix</a>
                   </li>
-                  <li class="dropdownMenu">
-                    <span class="plus_icon"
-                      ><img src="./images/plus_b13a8b.png" alt="plus_icon"
-                    /></span>
-                    <a href="" class="drop-links">Flipkart Plus Zone</a>
+                  <li class="_1KCOnI _3ZgIXy"><a title="OPPO"
+                      href="/oppo-mobile-phones-store?otracker=nmenu_sub_Electronics_0_OPPO">OPPO</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Apple"
+                      href="/apple-products-store?otracker=nmenu_sub_Electronics_0_Apple">Apple</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Vivo"
+                      href="/mobiles/pr?sid=tyy%2C4io&amp;p%5B%5D=facets.serviceability%5B%5D%3Dfalse&amp;p%5B%5D=facets.brand%255B%255D%3DVivo&amp;otracker=nmenu_sub_Electronics_0_Vivo">Vivo</a>
                   </li>
-                  <li class="dropdownMenu">
-                    <span class="profile_icon"
-                      ><i class="fas fa-user-circle"></i
-                    ></span>
-                    <a href="" class="drop-links">Orders</a>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Honor"
+                      href="/search?p[]=facets.brand%255B%255D%3DHonor&amp;sid=tyy%2F4io&amp;otracker=CLP_filters&amp;otracker=nmenu_sub_Electronics_0_Honor">Honor</a>
                   </li>
-                  <li class="dropdownMenu">
-                    <span class="profile_icon"
-                      ><i class="fas fa-user-circle"></i
-                    ></span>
-                    <a href="" class="drop-links">Wishlists</a>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Asus"
+                      href="/mobiles/pr?sid=tyy%2C4io&amp;p%5B%5D=facets.brand%255B%255D%3DAsus&amp;otracker=nmenu_sub_Electronics_0_Asus">Asus</a>
                   </li>
-                  <li class="dropdownMenu">
-                    <span class="profile_icon"
-                      ><i class="fas fa-user-circle"></i
-                    ></span>
-                    <a href="" class="drop-links">Rewards</a>
-                  </li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Poco X2"
+                      href="/mobiles/~cs-1c8v939u5p/pr?sid=tyy%2C4io&amp;collection-tab-name=POCO%20X2&amp;otracker=nmenu_sub_Electronics_0_Poco%20X2">Poco
+                      X2</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="realme Narzo 10"
+                      href="/tyy/4io/~cs-bbqm8szk02/pr?sid=tyy,4io&amp;collection-tab-name=Realme+Narzo+10&amp;otracker=nmenu_sub_Electronics_0_realme%20Narzo%2010">realme
+                      Narzo 10</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Infinix Hot 9"
+                      href="/tyy/4io/~cs-y0g7ho0c3m/pr?sid=tyy,4io&amp;collection-tab-name=Infinix+Hot+9&amp;otracker=nmenu_sub_Electronics_0_Infinix%20Hot%209">Infinix
+                      Hot 9</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="IQOO 3"
+                      href="/tyy/4io/~cs-kypqvabi8g/pr?sid=tyy,4io&amp;collection-tab-name=IQOO&amp;otracker=nmenu_sub_Electronics_0_IQOO%203">IQOO
+                      3</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="iPhone SE"
+                      href="/mobiles/~cs-fdeu9sdw9c/pr?sid=tyy%2C4io&amp;collection-tab-name=Iphone%20SE%202020&amp;otracker=nmenu_sub_Electronics_0_iPhone%20SE">iPhone
+                      SE</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Motorola razr"
+                      href="/mobiles/~cs-35ecwn2f18/pr?sid=tyy%2C4io&amp;otracker=nmenu_sub_Electronics_0_Motorola%20razr">Motorola
+                      razr</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="realme Narzo 10A"
+                      href="/tyy/4io/~cs-crohk4na9x/pr?sid=tyy,4io&amp;collection-tab-name=Realme+Narzo+10A&amp;otracker=nmenu_sub_Electronics_0_realme%20Narzo%2010A">realme
+                      Narzo 10A</a></li>
+                  <li class="_1KCOnI _3ZgIXy"><a title="Motorola g8 power lite"
+                      href="/tyy/4io/~cs-w3eqqvrrdq/pr?sid=tyy,4io&amp;collection-tab-name=Motorola+G8+Power+Lite&amp;otracker=nmenu_sub_Electronics_0_Motorola%20g8%20power%20lite">Motorola
+                      g8 power lite</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link"
-                  >More
+                <!----mobile ul ends here-->
+              </div>
+              <div class="megaMenuDiv">
+                <h4>Mobile Accessories</h4>
+              </div>
+              <div class="megaMenuDiv">
+                <h4>Laptops</h4>
+              </div>
+              <div class="megaMenuDiv">
+                <h4>Televisions</h4>
+              </div>
+              <div class="megaMenuDiv">
+                <h4>Featured</h4>
+              </div>
+            </section>
+            <!----dropdown mega menu ends here-->
 
-                  <svg
-                    width="4.7"
-                    height="8"
-                    viewBox="0 0 16 27"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="_34Yjv1"
-                  >
-                    <path
-                      d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-                      fill="#fff"
-                      class="_14jSvk"
-                    ></path>
-                  </svg>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">
-                  <span class="cart-icon"
-                    ><i class="far fa-shopping-cart"></i
-                  ></span>
-                  Cart</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </article>
-    </section>
-    <!----flipkart header block ends here-->
-  </body>
+
+          </li>
+          <li class="list-item">
+            <a href="" class="nav-links">TVs & Appliances
+              <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3ynUUz">
+                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item"><a href="" class="nav-links">Men
+              <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3ynUUz">
+                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h">
+                </path>
+              </svg>
+            </a></li>
+          <li class="list-item"><a href="" class="nav-links">Women
+              <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3ynUUz">
+                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h">
+                </path>
+              </svg>
+            </a></li>
+          <li class="list-item">
+            <a href="" class="nav-links">Baby & Kids
+              <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3ynUUz">
+                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="" class="nav-links">Home & Furniture
+              <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_34Yjv1">
+                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_14jSvk">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="" class="nav-links">Sports, Books & More
+              <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_34Yjv1">
+                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_14jSvk">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item"><a href="" class="nav-links">Grocery</a></li>
+          <li class="list-item"><a href="" class="nav-links">Flights</a></li>
+          <li class="list-item">
+            <a href="" class="nav-links">Offer Zone</a>
+          </li>
+        </ul>
+      </nav>
+    </article>
+  </section>
+  <!------Main menu Block Starts here-->
+</body>
+
 </html>
