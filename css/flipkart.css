@@ -156,6 +156,7 @@ body {
     width: 260px;
     margin: 7px 0;
     left: -76px;
+    z-index: 1;
 }
 
 .dropdown .nav-item .nav-link {
@@ -269,6 +270,7 @@ span.plus_icon img {
     color: #212121;
     font-weight: 600;
     font-size: 14px;
+    padding: 12px 0;
 }
 
 #mainMenuBlock ul li a:hover {
@@ -289,14 +291,15 @@ span.plus_icon img {
 
 /*----dropdown mega menu starts here ----*/
 #MegaDropDownMenuBlock {
-    display: flex;
     background: #fff;
     height: 75%;
-    width: 1200px;
-    position: absolute;
+    width: 1220px;
     box-shadow: 0px 2px 3px 0px #ccc;
     margin: 10px 0px;
-
+    position: absolute;
+    left: 135px;
+    display: none;
+    z-index: 9999;
 }
 
 #MegaDropDownMenuBlock div {
@@ -309,7 +312,7 @@ span.plus_icon img {
 }
 
 #MegaDropDownMenuBlock div:nth-child(even) {
-    background: #fdfbfb;
+    background: #f3f4f5;
 }
 
 .megaMenuDiv ul {
@@ -327,6 +330,20 @@ span.plus_icon img {
 
 ._1h5QLb a {
     font-weight: bold !important;
+}
+
+#mainMenuBlock ul>li:hover #MegaDropDownMenuBlock {
+    display: flex;
+}
+
+#mainMenuBlock ul li:hover ._3ynUUz {
+    transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg);
+
+}
+
+#mainMenuBlock ul li:hover ._3ynUUz path {
+    fill: #2874f0 !important;
 }
 
 /*----dropdown mega menu ends here ------*/
