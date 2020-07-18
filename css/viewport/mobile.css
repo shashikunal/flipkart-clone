@@ -1,0 +1,78 @@
+@media screen and (max-width:500px) {
+    #headerBlock {
+        height: 140px;
+    }
+
+    #headerBlock article {
+        width: 100%;
+        display: block;
+    }
+
+    #headerBlock article .leftHeader {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #headerBlock article .rightHeader {
+        line-height: 18px;
+        margin: 7px 0;
+
+    }
+
+    .rightHeader nav>ul {
+        justify-content: center;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 0px 0 10px;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    #barsBlock {
+        display: inline-block;
+        padding: 5px 12px;
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        cursor: pointer;
+        right: 0;
+    }
+
+    #mainMenuBlock {
+        height: 100%;
+    }
+
+    #mainMenuBlock ul {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #mainMenuBlock ul li {
+        width: 100%;
+    }
+
+    #mainMenuBlock ul li a {
+        width: 100%;
+        display: block;
+        padding: 13px 10px;
+    }
+
+    #mainMenuBlock article {
+        width: 100%;
+    }
+
+    #mainMenuBlock {
+        transform: translate(-500px);
+        transition: ease 0.7s all;
+    }
+
+    #bars:checked~#mainMenuBlock {
+        transform: translate(0px);
+    }
+
+}

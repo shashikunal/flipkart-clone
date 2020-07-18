@@ -348,4 +348,8 @@ span.plus_icon img {
 
 /*----dropdown mega menu ends here ------*/
 
+#barsBlock {
+    display: none;
+}
+
 /*-----main menu block css ends here -----*/
